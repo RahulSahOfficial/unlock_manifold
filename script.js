@@ -21,7 +21,7 @@ function create_game()
 
 function pressed(obj,number)
 {
-	if(number<=should_press)
+	if(number==should_press)
 	{
 		should_press=should_press+1
 		$(obj).addClass("correct")
